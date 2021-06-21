@@ -23,9 +23,9 @@ steps:
   inputs:
     provider: aws
     workingDirectory: '$(System.DefaultWorkingDirectory)/kunduso_LearnTerraform/Get-Started-AWS-009-CI-CD-AzureDevops'
-    backendServiceAWS: 'AWS-Terraform'
-    backendAWSBucketName: 'AWS_Service_Connection'
-    backendAWSKey: 'tf/Get-Started-AWS-009-CI-CD-AzureDevops/terraform.tfstate'
+    backendServiceAWS: 'AWS_Service_Connection'
+    backendAWSBucketName: 'vladimir-dummy-bucket'
+    backendAWSKey: 'tf/terraform.tfstate'
 
 # Your build pipeline references a secret variable named ‘access_key’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
 # Your build pipeline references a secret variable named ‘secret_key’. Create or edit the build pipeline for this YAML file, define the variable on the Variables tab, and then select the option to make it secret. See https://go.microsoft.com/fwlink/?linkid=865972
